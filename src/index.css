@@ -1,0 +1,11 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; -webkit-text-size-adjust: 100%; }
+body {
+  background: #fdf8f4;
+  font-family: Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+textarea, input { font-family: Georgia, serif; outline: none; }
+button { font-family: Georgia, serif; }
+::-webkit-scrollbar { display: none; }
